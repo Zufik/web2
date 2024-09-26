@@ -1,0 +1,79 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Navigation menu */
+nav {
+    background: rgb(0,0,0,0.8);
+}
+nav ul {
+    width: 1020px;
+    margin: 0px auto;
+}
+
+nav ul li {
+    width: 145px;
+    list-style-type:none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid pink;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+
+
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Hlavni main*/
+.firstPhoto{
+    background: black;
+}
+.firstPhoto img{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 100px;
+}
+main h2 {
+    text-align: center;
+    margin-top: 120px;
+    
+   
+}
+main h2 span {
+     font-size: 40px;
+     
+}
+
+.section1 img {
+    width: 400px;
+    display: block;
+    margin: 0px auto;
+    transform: rotate(-10deg);
+}
+.section2 h2 {
+    font-size: 50px;
+    margin-top: 0px;
+
+}
+
+/*PAticka*/
+footer {
+    background: rgb(240, 212, 212);
+    color: rgb(43, 41, 41);
+    text-align: center;
+}
